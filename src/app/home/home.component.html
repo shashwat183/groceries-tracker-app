@@ -1,0 +1,14 @@
+<div class='content-container'>
+    <!-- <mat-grid-list cols="5" rowHeight="1:1" gutterSize="80px"> -->
+        <!-- <mat-grid-tile *ngFor="let grocery of groceries; let i = index"> -->
+            <mat-card class=card *ngFor="let grocery of groceries; let i = index">
+                <mat-card-title>
+                    {{grocery.name}}
+                </mat-card-title>
+                <mat-card-content>
+                    Price: {{grocery.price}}
+                </mat-card-content>
+            </mat-card>
+        <!-- </mat-grid-tile> -->
+    <!-- </mat-grid-list> -->
+</div>

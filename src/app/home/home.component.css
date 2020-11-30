@@ -1,0 +1,14 @@
+div.content-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.card {
+    display: inline-block;
+    width: 20%;
+    height: 300px;
+    margin: 20px;
+    vertical-align: top;
+    cursor: pointer;
+}
